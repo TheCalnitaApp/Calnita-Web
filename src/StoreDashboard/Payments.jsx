@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import Ordersbody from './PageContent/Ordersbody';
+import Paymentsbody from './PageContent/Paymentsbody';
 import Navbar from './AdminSideBar/Navbar';
 
-const Orders = () => {
+const Payments = () => {
     return ( 
         <div className=' w-[100%] h-[150vh] block bg-gray-100 '>
-          <Ordersbody />
-          <Navbar />
-
+        <Paymentsbody />
+        <Navbar />
     </div>
      );
 }
  
-export default Orders;
+export default Payments;
