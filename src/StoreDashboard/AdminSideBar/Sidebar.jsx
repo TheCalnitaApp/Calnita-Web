@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { customersIcon, dashboardIcon, logoutIcon, messagesIcon, ordersIcon, reviewsIcon, paymentIcon, settingsIcon, productsIcon } from '../assets/icons';
-import SidebarButton from '../Components/sidebarButtons';
+import SidebarButton from '../organisms/sidebarButtons';
 const Sidebar = () => {
 
 	
@@ -26,7 +26,7 @@ const Sidebar = () => {
 			
 		</div>
 		 <div class="flex flex-col items-center w-full mt-3 px-2" >
-		<SidebarButton iconName={ settingsIcon } title="Settings"></SidebarButton>
+		<SidebarButton iconName={ settingsIcon } title="Settings" targetLink="/settings"></SidebarButton>
 				<SidebarButton iconName={ logoutIcon } title="Logout"></SidebarButton>
 		</div> 
 				
