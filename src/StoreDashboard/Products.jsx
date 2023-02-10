@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Productsbody from './PageContent/ProductsBody';
 import Navbar from './AdminSideBar/Navbar';
-import Addproduct from './Modals/AddProductModal';
 
 const Products = () => {
     return ( 
