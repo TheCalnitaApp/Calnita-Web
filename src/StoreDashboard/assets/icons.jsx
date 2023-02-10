@@ -63,7 +63,7 @@ export const dashboardIcon =
   <path d="M5.85 9.15002L2.5 12.5L5.85 15.85" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>;
 
-  export const searchIcon = <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  export const searchIcon = <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
   </svg>
       
@@ -107,5 +107,21 @@ export const dashboardIcon =
   </svg>
 
   export const arrowIconDownBlack = <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+  </svg>;
+
+  export const galleryAddLg = <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M28.4993 31.6667C31.9972 31.6667 34.8327 28.8311 34.8327 25.3333C34.8327 21.8355 31.9972 19 28.4993 19C25.0015 19 22.166 21.8355 22.166 25.3333C22.166 28.8311 25.0015 31.6667 28.4993 31.6667Z" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.1673 6.33336H28.5006C12.6673 6.33336 6.33398 12.6667 6.33398 28.5V47.5C6.33398 63.3334 12.6673 69.6667 28.5006 69.6667H47.5006C63.334 69.6667 69.6673 63.3334 69.6673 47.5V31.6667" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.875 15.8334H67.2917" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M58.584 24.5417V7.125" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8.45312 60.0083L24.0648 49.5267C26.5665 47.8483 30.1765 48.0383 32.4248 49.97L33.4698 50.8883C35.9398 53.01 39.9298 53.01 42.3998 50.8883L55.5731 39.5833C58.0431 37.4616 62.0331 37.4616 64.5031 39.5833L69.6648 44.0166" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>;
+  
+  export const galleryAddSm = <svg width="18" height="18" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M14.9993 16.6667C16.8403 16.6667 18.3327 15.1743 18.3327 13.3333C18.3327 11.4924 16.8403 10 14.9993 10C13.1584 10 11.666 11.4924 11.666 13.3333C11.666 15.1743 13.1584 16.6667 14.9993 16.6667Z" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21.6673 3.33334H15.0007C6.66732 3.33334 3.33398 6.66668 3.33398 15V25C3.33398 33.3333 6.66732 36.6667 15.0007 36.6667H25.0007C33.334 36.6667 36.6673 33.3333 36.6673 25V16.6667" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26.25 8.33334H35.4167" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M30.834 12.9167V3.75" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M4.44922 31.5833L12.6659 26.0667C13.9826 25.1833 15.8826 25.2833 17.0659 26.3L17.6159 26.7833C18.9159 27.9 21.0159 27.9 22.3159 26.7833L29.2492 20.8333C30.5492 19.7167 32.6492 19.7167 33.9492 20.8333L36.6659 23.1667" stroke="#F9F9F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>;
   
