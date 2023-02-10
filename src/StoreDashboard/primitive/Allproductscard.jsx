@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Topprod from '../organisms/Topprod';
 import { addCircle } from '../assets/icons';
-import Addproduct from '../Modals/AddProductModal';
 
 const Allproductscard = () => {
     return ( 
@@ -26,9 +25,7 @@ const Allproductscard = () => {
             <Topprod />
             <Topprod />
             </div>
-            <div id="addProductModal" className="absolute top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
-                <Addproduct />
-            </div>
+          
         </div>
      );
 }
