@@ -3,7 +3,7 @@ import Dashboard from  './StoreDashboard/Dashboard'
 import Products from './StoreDashboard/Products';
 import Customers from './StoreDashboard/Customers';
 import Orders from './StoreDashboard/Orders';
-import AddProduct from './StoreDashboard/AddProduct';
+import Settings from './StoreDashboard/Settings';
 import Reviews from './StoreDashboard/Reviews';
 import Messages from './StoreDashboard/Messages';
 import Payments from './StoreDashboard/Payments';
@@ -25,7 +25,7 @@ function App() {
           <Route path='/products' element={<Products />} />
           <Route path='/customers' element={<Customers />} />
           <Route path='/orders' element={<Orders />} />
-          <Route path='/add-product' element={<AddProduct />} />
+          <Route path='/settings' element={<Settings />} />
           <Route path='/payments' element={<Payments />} />
           <Route path='/reviews' element={<Reviews />} />
           <Route path='/messages' element={<Messages />} />
