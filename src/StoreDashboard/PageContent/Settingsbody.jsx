@@ -1,21 +1,24 @@
-import React, { Component } from 'react'
+
+import React, { Component } from 'react';
 import Sidebar from '../AdminSideBar/Sidebar';
-import Customercard from '../primitive/Cusrtomercard';
+import SettingsCard from '../primitive/SettingsCard';
 
 
-const Customersbody = () => {
+const Settingsbody = () => {
     return ( 
-        <React.Fragment>
+        <div>
+            <React.Fragment>
         <div className='flex-col flex w-[75vw] absolute  h-max left-[256px]'>
-          <Sidebar />
+        <Sidebar />
           
        <div className='relative top-[15vh]'>
-        <Customercard />
+        <SettingsCard />
        </div>
        
    </div>
    </React.Fragment>
+        </div>
      );
 }
  
-export default Customersbody;
+export default Settingsbody;
