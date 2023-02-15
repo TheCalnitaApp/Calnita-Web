@@ -11,7 +11,7 @@ const Topprod = ({productImg, productName, productPrice, qty, stckAvail}) => {
 
 
     return ( 
-        <div className='grid grid-rows-2 grid-cols-1 w-[131px] h-[80%] rounded-xl bg-white mx-2 relative border-2 border-gray-300'>
+        <div className='grid grid-rows-2 grid-cols-1 w-[150px] h-[80%] rounded-xl bg-white mx-2 relative border-2 border-gray-300'>
             
             <div className=' flex justify-center items-center  '>
                  <img src={topprodpic} alt="" className='w-20 h-20 pt-2'/> 

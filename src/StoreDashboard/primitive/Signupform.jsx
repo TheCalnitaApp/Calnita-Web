@@ -22,7 +22,7 @@ const Signupform = () => {
                     <label for="password" className='block mt-3 text-xs font-bold text-gray-900'>Password</label>
                     <input type="text"  id="password" className="form-control block w-full p-2 text-gray-900 border border-gray-300 rounded-full sm:text-xs" placeholder="***********" />
                 </div>
-                <div className="form-group flex items-center">
+                <div className="form-group flex items-center mt-2">
                     <input type="checkbox" id="remember-me" className="form-control mr-2" />
                     <label for="remember-me">Remember</label>
                     

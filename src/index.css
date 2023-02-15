@@ -4,7 +4,7 @@
 @tailwind utilities;
 @layer base {
     @font-face {
-        font-family: Andora;
+        font-family: "Andora";
         font-weight: 400;
         src: url(/src/fonts/AndoraModernSerif-lgrvw.otf) format("otf");
     }
