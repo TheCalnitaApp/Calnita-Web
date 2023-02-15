@@ -12,7 +12,7 @@ const Signin = () => {
                 
 
                 <div className='w-[40vw] mt-24 ml-12 relative'>
-                    <h1 className='text-[2.8rem] font-hero'>Where <span className='text-pink-600'>beauty brands</span>  and <span className='text-pink-500'>customers</span>  come together</h1>
+                    <h1 className='text-[3.75rem] font-hero leading-tight'>Where <span className='text-pink-600'>beauty brands</span>  and <span className='text-pink-500'>customers</span>  come together</h1>
                     <p className='text-md text-gray-400'>The ultimate destination for beauty brands to sell, engage and better understand their customers</p>
                 </div>
                 <div className='bottom-0 left-0 relative'>
