@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../components/layout/containerlayout";
+@import "../components/layout/productcardlayout";
+@import "../utils/styles/customCheckbox";
+
+
+.swiper, .swiper-wrapper {
+  z-index: unset !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #F92A63 !important;
+}
+
+// .swiper-pagination {
+//   position: relative !important;
+// }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #F92A63;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+  @apply focus:outline-none focus:ring-1 focus:border-0 focus:ring-[#F92A63] 
+}
+
+.swiper-btn-prev, .swiper-btn-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-btn-next {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+}
+
+.swiper-btn-prev {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+}
+
+.swiper-btn-prev:disabled, .swiper-btn-next:disabled {
+ display: none
+}
+
+.swiper-btn-prev::after, .swiper-btn-next::after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+/* Clear background color for autofill */
+
+
+::-webkit-scrollbar:hover {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f92a63;
+}
+

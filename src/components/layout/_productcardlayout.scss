@@ -1,0 +1,10 @@
+.productcardlayout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 4rem;
+    padding: 5% 5%;
+
+    @apply w-full place-items-center h-full bg-white rounded-xl relative shadow-md;
+    }

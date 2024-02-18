@@ -1,0 +1,100 @@
+{
+    "customers": [
+        {
+            "id": "mimienene",
+            "name": "Mimiboy Enene",
+            "email" : "mimi@gmail.com",
+            "tel": 8146134953,
+            "location": "Nigeria",
+            "orders": [
+                {
+                    "name": "CeraVe",
+                    "date": "12/2/2023",
+                    "status": 2,
+                    "amount": 14450,
+                    "imgUrl": "./topprodpic.png",
+                    "destination": "kenya",
+                    "orderId": 234857,
+                    "customer": {
+                      "name": "Grace Amusan",
+                      "tel": 8123456789,
+                      "email": "grace@gmail.com"
+                    },
+                    "shippingDetails": {
+                      "address": "45 Sapa Street, benson avenue, Uyo ",
+                      "tel": 7894332041,
+                      "email": "Calnita@gmail.com",
+                      "landmark": "Unity Bank benson avenue"
+                    },
+                    "products": [
+                      {
+                        "prodname": "Obsessed 5ml parfum",
+                        "price": 14450,
+                        "quantity": 3,
+                        "imgUrl": "./topprodpic.png"
+                        
+                      },
+                      {
+                        "prodname": "Obsessed 5ml parfum",
+                        "price": 16650,
+                        "quantity": 3,
+                        "imgUrl": "./topprodpic.png"
+                        
+                      }
+                    ]
+                  }
+            ],
+            "cart": [
+              {
+                "prodname": "Sleek Metal Bacon",
+                "price": "63.00",
+                "quantity": 42,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "1"
+              },
+              {
+                "prodname": "Unbranded Rubber Bike",
+                "price": "726.00",
+                "quantity": 35,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "2"
+              },
+              {
+                "prodname": "Tasty Soft Towels",
+                "price": "80.00",
+                "quantity": 10,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "3"
+              },
+              {
+                "prodname": "Incredible Rubber Ball",
+                "price": "677.00",
+                "quantity": 30,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "4"
+              },
+              {
+                "prodname": "Refined Rubber Table",
+                "price": "999.00",
+                "quantity": 9,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "5"
+              },
+              {
+                "prodname": "Awesome Bronze Table",
+                "price": "261.00",
+                "quantity": 90,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "6"
+              },
+              {
+                "prodname": "Ergonomic Soft Salad",
+                "price": "632.00",
+                "quantity": 72,
+                "imgUrl": "https://loremflickr.com/640/480/fashion",
+                "id": "7"
+              }
+            ]
+        }
+    ]
+}

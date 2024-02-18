@@ -1,0 +1,37 @@
+
+ 
+ #ck-button {
+     border-radius:20px;
+     overflow:auto;
+     float:left;
+ }
+ 
+ #ck-button:hover div{
+     background: #FEEAEF;
+ }
+ 
+ #ck-button label {
+     float:left;
+     width:fit-content;
+ }
+ 
+ #ck-button label span {
+     text-align:center;
+     display:block;
+ }
+ 
+ #ck-button label input {
+     display: none;
+
+ }
+ 
+ #ck-button div {
+    background-color: #EEEEEE;
+    border-radius:20px;
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem 1rem;
+ }
+ #ck-button input:checked + div {
+     @apply bg-[#F92A63] text-white transition-colors;
+ }
